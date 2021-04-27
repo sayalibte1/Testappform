@@ -118,11 +118,11 @@ class App extends React.Component {
     switch(e.target.name){
       case 'firstname':
         isError.firstname =
-        inputVal.length < 4 ? "Atleast 4 characaters required" : "";
+        inputVal.length < 2 ? "Atleast 2 characaters required" : "";
     break;
     case 'lastname':
       isError.lastname =
-      inputVal.length < 4 ? "Atleast 4 characaters required" : "";
+      inputVal.length < 2 ? "Atleast 2 characaters required" : "";
   break;
   case 'mobileno':
     isError.mobileno =
