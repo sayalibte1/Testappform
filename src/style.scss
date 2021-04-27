@@ -1,0 +1,14 @@
+@import './common.scss';
+#root{
+    background-color:$bg-black;
+    padding-top:15px;
+    padding-bottom:10px;
+    .container{
+        background-color:$bg-darkgray;
+        padding-top:30px;
+        padding-bottom:30px;
+        label{
+            color:$color-white;
+        }
+    }
+}
